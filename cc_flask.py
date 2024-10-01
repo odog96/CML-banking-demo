@@ -103,7 +103,7 @@ def index():
       def conn():
         return connect(host='dwarehouse-gateway.jqrhv9ch.l39n-29js.a8.cloudera.site', port=443, \
                               timeout=None, use_ssl=True, ca_cert=None, database='jvp_cc_lead_model',\
-                              user="csso_jprosser", password="BadPass#1", kerberos_service_name='impala', \
+                              user="csso_jprosser", password="*******", kerberos_service_name='impala', \
                               auth_mechanism="LDAP", krb_host=None, use_http_transport=True, \
                               http_path='cliservice', http_cookie_names=None, retries=3, jwt=None,\
                               user_agent=None)
